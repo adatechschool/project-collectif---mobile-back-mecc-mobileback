@@ -31,8 +31,7 @@ func homeLink(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Welcome to the surf!")
 }
 
-func printJson(w http.ResponseWriter, r *http.Request) {
-	// Open our jsonFile
+func getAllSpots(w http.ResponseWriter, r *http.Request){
 	jsonFile, err := os.Open("spots.json")
 	// if we os.Open returns an error then handle it
 	if err != nil {
@@ -51,15 +50,12 @@ func printJson(w http.ResponseWriter, r *http.Request) {
 	// we unmarshal our byteArray which contains our
 	// jsonFile's content into 'users' which we defined above
 	json.Unmarshal(byteValue, &spots)
-
-	for i := 0; i < len(spots.Spots); i++ {
-		fmt.Println("Spot Name: " + spots.Spots[i].Name)
-	}
+	json.NewEncoder(w).Encode(spots)
 }
 
 func main() {
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/", homeLink)
-	router.HandleFunc("/spots", printJson)
+	router.HandleFunc("/spots", getAllSpots)
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
