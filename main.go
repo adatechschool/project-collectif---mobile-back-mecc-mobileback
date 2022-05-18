@@ -50,7 +50,7 @@ func getAllSpots(w http.ResponseWriter, r *http.Request){
 	// we unmarshal our byteArray which contains our
 	// jsonFile's content into 'users' which we defined above
 	json.Unmarshal(byteValue, &spots)
-	json.NewEncoder(w).Encode(spots)
+	json.NewEncoder(w).Encode(spots.Spots)
 }
 
 func main() {
