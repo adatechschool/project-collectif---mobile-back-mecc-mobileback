@@ -1,12 +1,13 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"net/http"
-	"encoding/json"
-	"io/ioutil"
 	"os"
+	"strconv"
 
 	"github.com/gorilla/mux"
 )
@@ -33,29 +34,38 @@ func homeLink(w http.ResponseWriter, r *http.Request) {
 
 func getAllSpots(w http.ResponseWriter, r *http.Request){
 	jsonFile, err := os.Open("spots.json")
-	// if we os.Open returns an error then handle it
 	if err != nil {
 		fmt.Println(err)
 	}
 	fmt.Println("Successfully Opened spots.json")
-	
-	// defer the closing of our jsonFile so that we can parse it later on
 	defer jsonFile.Close()
-	
-	// read our opened xmlFile as a byte array.
 	byteValue, _ := ioutil.ReadAll(jsonFile)
-	
-	// we initialize our Users array
 	var spots Spots
-	// we unmarshal our byteArray which contains our
-	// jsonFile's content into 'users' which we defined above
 	json.Unmarshal(byteValue, &spots)
 	json.NewEncoder(w).Encode(spots.Spots)
+}
+
+func getOneSpot(w http.ResponseWriter, r *http.Request) {
+	jsonFile, err := os.Open("spots.json")
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println("Successfully Opened spots.json")
+	defer jsonFile.Close()
+	byteValue, _ := ioutil.ReadAll(jsonFile)
+	var spots Spots
+	json.Unmarshal(byteValue, &spots)
+	spotID := mux.Vars(r)["id"]
+	spotIDnum,_ := strconv.ParseInt(spotID, 10, 64)
+	//sortir l'objet spot correspondant à ce spot id
+	//refacto l'accès au json
+	json.NewEncoder(w).Encode(spots.Spots[spotIDnum])
 }
 
 func main() {
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/", homeLink)
-	router.HandleFunc("/spots", getAllSpots)
+	router.HandleFunc("/spots", getAllSpots).Methods("GET")
+	router.HandleFunc("/spots/{id}", getOneSpot).Methods("GET")
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
