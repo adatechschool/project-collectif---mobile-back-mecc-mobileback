@@ -26,6 +26,7 @@ type Spot struct {
 	Link       string `json:"link"`
 	ImageName  string `json:"imageName"`
 	Difficulty float64 `json:"difficulty"`
+	About 		string `json:"about"`
 }
 
 func homeLink(w http.ResponseWriter, r *http.Request) {
