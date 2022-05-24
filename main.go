@@ -19,15 +19,17 @@ type Spots struct {
 }
 
 type Spot struct {
-	Name        string `json:"name"`
-	ID          int    `json:"id"`
-	Coordinates int    `json:"coordinates"`
-	// struct {// Longitude float64 `json:"longitude"`
-	// 	// Latitude  float64 `json:"latitude"`} `json:"coordinates"`
+	Name string `json:"name"`
+	ID   int    `json:"id"`
+	// Coordinates int    `json:"coordinates"`
+	// // struct {// Longitude float64 `json:"longitude"`
+	// // 	// Latitude  float64 `json:"latitude"`} `json:"coordinates"`
 	Link       string  `json:"link"`
 	ImageName  string  `json:"imageName"`
 	Difficulty float64 `json:"difficulty"`
-	About 		string `json:"about"`
+	About      string  `json:"about"`
+	Longitude  float64 `json: "longitude"`
+	Latitude   float64 `json: "latitude"`
 }
 
 func homeLink(w http.ResponseWriter, r *http.Request) {
@@ -80,7 +82,7 @@ func addSpot(http.ResponseWriter, *http.Request) {
 	// executing
 	defer db.Close()
 
-	insert, err := db.Query("INSERT INTO `surf_spots` (`id`, `name`, `link`, `image`, `difficulty`, `coordinates`) VALUES (NULL, 'pipeline', 'https://www.lonelyplanet.fr/place-be/surfer-le-banzai-pipeline', 'https://www.surf-forecast.com/system/images/4295/large/Banzai-Pipelines-and-Backdoor.jpg?1324521720', '3', '18528')")
+	insert, err := db.Query("INSERT INTO `surf_spots` (`id`, `name`, `link`, `image`, `difficulty`, `about`, `longitude`, `latitude`) VALUES (NULL, 'pipeline', 'https://www.lonelyplanet.fr/place-be/surfer-le-banzai-pipeline', 'https://www.surf-forecast.com/system/images/4295/large/Banzai-Pipelines-and-Backdoor.jpg?1324521720', '3', '-158.05120469999997',)")
 
 	// if there is an error inserting, handle it
 	if err != nil {
@@ -110,18 +112,19 @@ func getSpots(w http.ResponseWriter, r *http.Request) {
 	}
 
 	defer res.Close()
-
+	var spots []Spot
 	for res.Next() {
+		// byteValue, _ := ioutil.ReadAll(r.Body)
 
-		var spots Spot
-		err := res.Scan(&spots.Name, &spots.ID, &spots.Coordinates, &spots.Link, &spots.ImageName, &spots.Difficulty)
-
+		var spot Spot
+		err := res.Scan(&spot.Name, &spot.ID, &spot.Link, &spot.ImageName, &spot.Difficulty, &spot.About, &spot.Longitude, &spot.Latitude)
+		spots = append(spots, spot)
 		if err != nil {
 			log.Fatal(err)
 		}
-
-		fmt.Fprintf(w, "%v\n", spots)
+		// json.Unmarshal(byteValue, &spots)
 	}
+	json.NewEncoder(w).Encode(spots)
 }
 
 func main() {

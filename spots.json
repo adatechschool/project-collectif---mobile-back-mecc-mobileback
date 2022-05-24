@@ -3,122 +3,102 @@
     {
         "name": "Pipeline",
         "id": 1001,
-        "coordinates": {
-            "longitude": -158.05120469999997,
-            "latitude": 21.6650562
-        },
         "link": "https://magicseaweed.com/Pipeline-Backdoor-Surf-Report/616/",
         "imageName": "pipeline",
         "difficulty": 4,
-        "about": "Backdoor was somewhat ignored during Pipeline's first golden days in the 1970s. It makes you wonder how many heaving barrels roared right off the peak before everyone kind of clicked on it. The wave relies on a slight breaking up of swell lines from the northwest (shorter to mid period swells are best, of a swell combo) and a thin channel between the Pipe reef and Off-The-Wall. The broken swell allows a tapering wall, which hits square on the shallowest part of first reef and creates an intense and very hollow, deep tube. Further inside, the reef gets shallower and actually pokes itself above the waterline here and there. Dealing properly with the finish of a ride is very important, as it will often end as a powerful closeout. This is even more the case on larger days, when the unwary surfer might come out of the tube, start paddling, and be faced with a several closeouts sections on the head over very shallow and sharp reef -- one of the North Shore's scariest moments. This is especially true upon completion on the first wave of a set, and during the more westerly swells where the current is pulling you across the impact zone of Backdoor and then inside of Pipe. If caught in this situation, either paddle in to the beach or go with the current and paddle over to the channel next to Pipe to get back out."
+        "about": "Backdoor was somewhat ignored during Pipeline's first golden days in the 1970s. It makes you wonder how many heaving barrels roared right off the peak before everyone kind of clicked on it. The wave relies on a slight breaking up of swell lines from the northwest (shorter to mid period swells are best, of a swell combo) and a thin channel between the Pipe reef and Off-The-Wall. The broken swell allows a tapering wall, which hits square on the shallowest part of first reef and creates an intense and very hollow, deep tube. Further inside, the reef gets shallower and actually pokes itself above the waterline here and there. Dealing properly with the finish of a ride is very important, as it will often end as a powerful closeout. This is even more the case on larger days, when the unwary surfer might come out of the tube, start paddling, and be faced with a several closeouts sections on the head over very shallow and sharp reef -- one of the North Shore's scariest moments. This is especially true upon completion on the first wave of a set, and during the more westerly swells where the current is pulling you across the impact zone of Backdoor and then inside of Pipe. If caught in this situation, either paddle in to the beach or go with the current and paddle over to the channel next to Pipe to get back out.",
+        "longitude": -158.05120469999997,
+        "latitude": 21.6650562
     },
     {
         "name": "Superbank",
         "id": 1002,
-        "coordinates": {
-            "longitude": 153.55002880000006,
-            "latitude": -28.162557
-        },
         "link": "https://magicseaweed.com/Surfers-Paradise-Gold-Coast-Surf-Report/1012/",
         "imageName": "superbank",
         "difficulty": 4,
-        "about": "A series of average sand bars breaking in the shadow of high-rises and a bustling city, the long stretch of straight beach break at Surfers Paradise doesn't really live up to its name. Still, on its day it serves up fun peaks to the urban crowd and room to spread out."
+        "about": "A series of average sand bars breaking in the shadow of high-rises and a bustling city, the long stretch of straight beach break at Surfers Paradise doesn't really live up to its name. Still, on its day it serves up fun peaks to the urban crowd and room to spread out.",
+        "longitude": 153.55002880000006,
+        "latitude": -28.162557
     },
     {
         "name": "Supertubes",
         "id": 1003,
-        "coordinates": {
-            "longitude": 24.93159400000002,
-            "latitude": -34.031783
-        },
         "link": "https://magicseaweed.com/Jeffreys-Bay-J-Bay-Surf-Report/88/",
         "imageName": "supertubes",
         "difficulty": 5,
-        "about": "Supers is 300 meters of perfection, with Boneyards and Impossibles as the two bookends. One of the most famous waves globally, J-Bay is still a Mecca for surfers, and your first proper wave at Supers will remain with you forever. However, it is a challenging wave that’s not to be toyed with. Bad things happen during most winter seasons: broken bones, severe reef cuts and other more serious injuries."
+        "about": "Supers is 300 meters of perfection, with Boneyards and Impossibles as the two bookends. One of the most famous waves globally, J-Bay is still a Mecca for surfers, and your first proper wave at Supers will remain with you forever. However, it is a challenging wave that’s not to be toyed with. Bad things happen during most winter seasons: broken bones, severe reef cuts and other more serious injuries.",
+        "longitude": 24.93159400000002,
+        "latitude": -34.031783
     },
     {
         "name": "Playa Chicama",
         "id": 1004,
-        "coordinates": {
-            "longitude": -79.43381879999998,
-            "latitude": -7.7001724
-        },
         "link": "https://magicseaweed.com/Southern-Peru-Surfing/378/",
         "imageName": "playa",
         "difficulty": 3,
-        "about": "Winds at Malabrigo are consistently offshore, but the swell is notoriously inconsistent. It needs a good swell to break properly, and days above head high are relatively rare. As a guide, wave sizes at the main point are around half the size of open ocean swell charts, and waves less than about 4 feet on the point (i.e. 8 feet on the swell charts) tend to be quite weak and slow. Best surfing is from around Easter Week (Semana Santa) and through the winter months in the southern hemisphere to about September when great storms in the Roaring Forties direct their wave energy toward Peru. The water is cool (17–22 °C), like much of Peru, due to cold currents from the south. Climate is warm and springlike (15–28 °C), however wind chill is a factor, created by the venturi effects from the headland. A 2–3 mm wetsuit is recommended as well as booties for walking up the beach."
+        "about": "Winds at Malabrigo are consistently offshore, but the swell is notoriously inconsistent. It needs a good swell to break properly, and days above head high are relatively rare. As a guide, wave sizes at the main point are around half the size of open ocean swell charts, and waves less than about 4 feet on the point (i.e. 8 feet on the swell charts) tend to be quite weak and slow. Best surfing is from around Easter Week (Semana Santa) and through the winter months in the southern hemisphere to about September when great storms in the Roaring Forties direct their wave energy toward Peru. The water is cool (17–22 °C), like much of Peru, due to cold currents from the south. Climate is warm and springlike (15–28 °C), however wind chill is a factor, created by the venturi effects from the headland. A 2–3 mm wetsuit is recommended as well as booties for walking up the beach.",
+        "longitude": -79.43381879999998,
+        "latitude": -7.7001724
     },
     {
         "name": "The Bubble",
         "id": 1005,
-        "coordinates": {
-            "longitude": -13.942277999999988,
-            "latitude": 28.7449091
-        },
         "link": "https://magicseaweed.com/Canary-Islands-Surf-Forecast/5/",
         "imageName": "bubble",
         "difficulty": 3,
-        "about": "The wild west of surfing, closer to Africa than Europe and with a bathymetry similar to Hawaii. The Canary Islands' breaks are famed for being shallow, heavy and hollow over urchin covered reefs. However more relaxed beach breaks do exist. By the time open ocean swell reaches the islands the winds which produced them have long died away offering the possibility of clean, long period swells. Unfortunately the islands are also plagued by north-easterly trade winds which can easily blow out the dominant north-westerly swells. Surfing arrived relatively recently to this archipelago and only really took off the the 1990s. Despite having a reputation for localism it is possible to find quiet waves, especially if you explore a bit and show respect."
+        "about": "The wild west of surfing, closer to Africa than Europe and with a bathymetry similar to Hawaii. The Canary Islands' breaks are famed for being shallow, heavy and hollow over urchin covered reefs. However more relaxed beach breaks do exist. By the time open ocean swell reaches the islands the winds which produced them have long died away offering the possibility of clean, long period swells. Unfortunately the islands are also plagued by north-easterly trade winds which can easily blow out the dominant north-westerly swells. Surfing arrived relatively recently to this archipelago and only really took off the the 1990s. Despite having a reputation for localism it is possible to find quiet waves, especially if you explore a bit and show respect.",
+        "longitude": -13.942277999999988,
+        "latitude": 28.7449091
     },
     {
         "name": "Rockaway Beach",
         "id": 1006,
-        "coordinates": {
-            "longitude": -73.81149929999998,
-            "latitude": 40.5867247
-        },
         "link": "https://magicseaweed.com/Rockaway-Surf-Report/384/rock",
         "imageName": "rockaway",
         "difficulty": 1,
-        "about": "Being the closest consistently surfable spot to New York City, Rockaway is the most popular day trip for city surfers. The beach is easily accessible by the city train system. The west-end towns of Breezy Point and Bell Harbor are nice areas with excellent surf. The Ramones hitched a ride to 92nd Street in the '70s, and it remains the most popular spot in Rockaway. A long jetty creates a hollow takeoff, followed by fast, grinding lefts walls. Once the poster child for polluted lineups, legislation over the last couple decades has cleaned things up dramatically. But it's still New York, so, for heaven's sake, be careful."
+        "about": "Being the closest consistently surfable spot to New York City, Rockaway is the most popular day trip for city surfers. The beach is easily accessible by the city train system. The west-end towns of Breezy Point and Bell Harbor are nice areas with excellent surf. The Ramones hitched a ride to 92nd Street in the '70s, and it remains the most popular spot in Rockaway. A long jetty creates a hollow takeoff, followed by fast, grinding lefts walls. Once the poster child for polluted lineups, legislation over the last couple decades has cleaned things up dramatically. But it's still New York, so, for heaven's sake, be careful.",
+        "longitude": -73.81149929999998,
+        "latitude": 40.5867247
     },
     {
         "name": "Pasta Point",
         "id": 1007,
-        "coordinates": {
-            "longitude": 73.59173299999998,
-            "latitude": 4.317842
-        },
         "link": "https://magicseaweed.com/Maldives-Surf-Forecast/56/",
         "imageName": "pastapoint",
         "difficulty": 3,
-        "about": "Boat-trips and the occasional surf camp are the only ways to surf this unique group of 1,200 coral islands based around 26 atolls. Typically the reefs passes are deeper than in Indonesia and the South Pacific with classic set-ups abounding. Swells travelling south-west across to Indonesia bestow part of their energy on this chain before continuing their journey. Separated into the North Atolls and South Atolls (the south has the most spots) the region boasts year-round swell with high period being March to April. Two monsoon seasons, the north-east monsoon from December to April and the south west monsoon, from May to October breaks up the surfing season shifting the focus from north to south accordingly. Predominantly reef-passes, waves like Sultans and Tiger Stripes have developed deserved reputations for epic barrels and raw Indian Ocean power. Modern surfing was introduced to the Maldives in the late in 1973 by Tony Hinde. Sea temperatures remain steady at about 27ºC or 81ºF."
+        "about": "Boat-trips and the occasional surf camp are the only ways to surf this unique group of 1,200 coral islands based around 26 atolls. Typically the reefs passes are deeper than in Indonesia and the South Pacific with classic set-ups abounding. Swells travelling south-west across to Indonesia bestow part of their energy on this chain before continuing their journey. Separated into the North Atolls and South Atolls (the south has the most spots) the region boasts year-round swell with high period being March to April. Two monsoon seasons, the north-east monsoon from December to April and the south west monsoon, from May to October breaks up the surfing season shifting the focus from north to south accordingly. Predominantly reef-passes, waves like Sultans and Tiger Stripes have developed deserved reputations for epic barrels and raw Indian Ocean power. Modern surfing was introduced to the Maldives in the late in 1973 by Tony Hinde. Sea temperatures remain steady at about 27ºC or 81ºF.",
+        "longitude": 73.59173299999998,
+        "latitude": 4.317842
     },
     {
         "name": "Manu Bay",
         "id": 1008,
-        "coordinates": {
-            "longitude": 174.81221619999997,
-            "latitude": -37.8214592
-        },
         "link": "https://magicseaweed.com/Raglan-Surf-Report/91/",
         "imageName": "manubay",
         "difficulty": 2,
-        "about": "Raglan has three separate points - Indicators, Whale and Manu - plus a series of beachies. The waves are world-class and consistent."
+        "about": "Raglan has three separate points - Indicators, Whale and Manu - plus a series of beachies. The waves are world-class and consistent.",
+        "longitude": 174.81221619999997,
+        "latitude": -37.8214592
     },
     {
         "name": "Kitty Hawk",
         "id": 1009,
-        "coordinates": {
-            "longitude": -75.71195569999998,
-            "latitude": 36.1005777
-        },
         "link": "https://magicseaweed.com/North-Carolina-Outer-Banks-North-Surfing/283/",
         "imageName": "kittyhawk",
         "difficulty": 3,
-        "about": "The southern beaches of Kitty Hawk, Kill Devil Hills and Nags Head — collectively known as “Town” — remain the hub of civilization on the Outer Banks. While Duck and Corolla become virtually desolate after summer tourists leave, and the Hatteras villages all but shut down in winter, reverting to their small native populations of mostly fisherman, the area between Kitty Hawk and Nags Head will still hum at a leisurely rate through the off-season, catering to the largest population on the island. If you’re looking to complement your surf sessions with some nighttime fun, this is the best summer option — and the only winter option — and each small community has a break or two to brag about."
+        "about": "The southern beaches of Kitty Hawk, Kill Devil Hills and Nags Head — collectively known as “Town” — remain the hub of civilization on the Outer Banks. While Duck and Corolla become virtually desolate after summer tourists leave, and the Hatteras villages all but shut down in winter, reverting to their small native populations of mostly fisherman, the area between Kitty Hawk and Nags Head will still hum at a leisurely rate through the off-season, catering to the largest population on the island. If you’re looking to complement your surf sessions with some nighttime fun, this is the best summer option — and the only winter option — and each small community has a break or two to brag about.",
+        "longitude": -75.71195569999998,
+        "latitude": 36.1005777
     },
     {
         "name": "Skeleton Bay",
         "id": 1010,
-        "coordinates": {
-            "longitude": 14.906859,
-            "latitude": -25.9144919
-        },
         "link": "https://magicseaweed.com/Skeleton-Bay-Surf-Report/4591/",
         "imageName": "skeleton",
         "difficulty": 5,
-        "about": "When Skeleton Bay was revealed in 2008, it was immediately declared the best wave on the planet. While a handful of contenders have popped up over the past decade, Skeleton Bay is still the standard against which all barreling spits are measured. A flawless, backless, mile-long, left-hand barrel machine with an impossible drop and break-neck pace, the wave only breaks a handful of times per season, but when it does it’s attended by a dedicated cadre of the world’s best barrel riders. Minute-long tube rides are possible here, for those who have the ability, desire, and luck to snag the right wave. But even the worst wave during a legit swell is better than just about every other barrel on the planet."
+        "about": "When Skeleton Bay was revealed in 2008, it was immediately declared the best wave on the planet. While a handful of contenders have popped up over the past decade, Skeleton Bay is still the standard against which all barreling spits are measured. A flawless, backless, mile-long, left-hand barrel machine with an impossible drop and break-neck pace, the wave only breaks a handful of times per season, but when it does it’s attended by a dedicated cadre of the world’s best barrel riders. Minute-long tube rides are possible here, for those who have the ability, desire, and luck to snag the right wave. But even the worst wave during a legit swell is better than just about every other barrel on the planet.",
+        "longitude": 14.906859,
+        "latitude": -25.9144919
     }
 ]
 }
